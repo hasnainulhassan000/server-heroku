@@ -1,7 +1,7 @@
 console.log("hello");
 
 var express = require("express");
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 3000
 var server = express();
 
 server.get("/", (req, res, next) => {
