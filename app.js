@@ -6,7 +6,7 @@ var server = express();
 
 server.get("/", (req, res, next) => {
     console.log("some one get menu");
-    res.send("menu: what do you want? food or Biryani");
+    res.send("Hello Hasnain how Are you? ");
 })
 server.get("/water", (req, res, next) => {
     console.log("some one is asking water");
